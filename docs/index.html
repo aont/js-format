@@ -412,7 +412,7 @@
     
             const result = await window.Terser.minify(inputText, {
               mangle: false,
-              compress: { sequences: false, join_vars: false },
+              compress: { inline: false, sequences: false, join_vars: false },
             });
     
             log('Terser result:', result);
