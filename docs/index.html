@@ -340,7 +340,7 @@
             bookmarklet.href = 'about:blank';
             return;
           }
-          bookmarklet.href = jsUri + encodeURIComponent(code);
+          bookmarklet.href = jsUri + code.replaceAll("%", "%25");
         }
     
         async function safeClipboardWrite(text) {
