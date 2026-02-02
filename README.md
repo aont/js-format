@@ -15,14 +15,14 @@ A single-page, mobile-friendly web tool for minifying and formatting JavaScript.
 
 ```
 .
-├── docs/
+├── public/
 │   └── index.html   # The full HTML/CSS/JS implementation
 └── README.md
 ```
 
 ## Usage
 
-1. Open `docs/index.html` in a browser.
+1. Open `public/index.html` in a browser.
 2. Paste JavaScript into the **Input** panel.
 3. Click **Minify** to generate minified output.
 4. Paste minified or bookmarklet code into **Output** and click **Format** to beautify into **Input**.
